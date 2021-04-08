@@ -1,0 +1,87 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Selection",
+  "steps": [
+    {
+      "file": "src/DataSheet.js",
+      "description": "## 上下左右键控制",
+      "line": 301,
+      "selection": {
+        "start": {
+          "line": 288,
+          "character": 1
+        },
+        "end": {
+          "line": 300,
+          "character": 6
+        }
+      }
+    },
+    {
+      "file": "src/DataSheet.js",
+      "description": "### 单选和多选时的导航逻辑不同 ",
+      "line": 497,
+      "selection": {
+        "start": {
+          "line": 472,
+          "character": 1
+        },
+        "end": {
+          "line": 496,
+          "character": 6
+        }
+      }
+    },
+    {
+      "file": "src/DataSheet.js",
+      "description": "### onSelect 通知 selection 变化",
+      "line": 719
+    },
+    {
+      "file": "src/DataSheet.js",
+      "description": "### onSelect 的调用处",
+      "line": 614,
+      "selection": {
+        "start": {
+          "line": 614,
+          "character": 1
+        },
+        "end": {
+          "line": 614,
+          "character": 66
+        }
+      }
+    },
+    {
+      "file": "src/DataSheet.js",
+      "description": "### 也可以外部指定 selected",
+      "line": 730,
+      "selection": {
+        "start": {
+          "line": 721,
+          "character": 1
+        },
+        "end": {
+          "line": 730,
+          "character": 6
+        }
+      }
+    },
+    {
+      "file": "src/DataSheet.js",
+      "description": "## 如果 selection 是外部控制的\n\n- 在 mouseDown，keyDown 等会改变 selection 的事件中就会通过 onSelect 通知外部 selection 改变\n- 内部 state 上不会设置 start & end",
+      "line": 125,
+      "selection": {
+        "start": {
+          "line": 113,
+          "character": 1
+        },
+        "end": {
+          "line": 124,
+          "character": 27
+        }
+      }
+    }
+  ],
+  "ref": "read"
+}
